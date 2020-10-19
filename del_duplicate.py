@@ -1,3 +1,5 @@
+#this script deletes dupliate line in text file
+
 file ='emails.txt'
 
 uniqlines = set(open(file, 'r', encoding='utf-8').readlines())
